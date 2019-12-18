@@ -1,0 +1,38 @@
+
+.curriculum {
+    background-color:  #3C6B9C;
+}
+
+.curriculum-header {
+    padding: 3%;
+    color: white;
+    font-size: 25px;
+}
+
+.curriculum-header2 {
+    color: white;
+    font-size: 15px;
+}
+.cur-div {
+    margin-left: 5%;
+}
+.curriculum-paragraph {
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}
+.curricullum-image {
+    margin-bottom: 20%;
+}
+.curriculum-div-div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .curricullum-image {
+        width: 100%;
+    }
+}

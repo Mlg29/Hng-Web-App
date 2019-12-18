@@ -1,0 +1,14 @@
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-header {
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: bold;
+}

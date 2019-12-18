@@ -1,0 +1,43 @@
+
+.mentor {
+    margin-top: 5%;
+    
+}
+.mentor-header {
+    color: #084482;
+    font-size: 25px;
+}
+.mentor-divv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.mentor-image {
+    border-radius: 50%;
+}
+
+.mentor-div-header {
+    font-size: 20px;
+    margin-top: 10%;
+    
+}
+.mentor-div-paragraph {
+    color: grey;
+}
+.mentor-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 1000px) {
+    .mentor-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

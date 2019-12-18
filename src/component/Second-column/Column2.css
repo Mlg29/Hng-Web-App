@@ -1,0 +1,26 @@
+
+
+.col-header2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #084482;
+}
+
+.col-paragraph2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    width: 80%;
+    font-size: 16px;
+    line-height: 151.2%;
+    color: #333333;
+}
+
+@media screen and (max-width: 1000px) {
+    .col-paragraph2 {
+        width: 100%;
+    }
+}

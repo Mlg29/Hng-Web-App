@@ -1,0 +1,40 @@
+.creative-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 34px;
+    color: #084482;
+
+}
+.creativity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.creative-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #084482;
+    margin: 2%;
+}
+
+.creative-paragrph {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 151.2%;
+    text-align: center;
+    color: #333333;
+}
+
+@media screen and (max-width: 1000px) {
+    .creative-image {
+        width: 100%;
+    }
+}

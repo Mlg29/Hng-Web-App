@@ -1,0 +1,42 @@
+
+.movement {
+    background-color:  #3C6B9C;
+}
+
+.movement-header {
+    color: white;
+    padding: 5%;
+    font-size: 25px;
+}
+.movement-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.movement-div-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movement-link {
+    margin-bottom: 30%;
+}
+.movement-div-header {
+    color: white;
+    font-size: 20px;
+}
+.movement-image {
+    background: white;
+    padding: 20px;
+    margin-top: -5%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    .movement-div {
+        display: flex;
+        flex-direction: column;
+    }
+}

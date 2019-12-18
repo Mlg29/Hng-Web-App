@@ -1,0 +1,35 @@
+
+.mentor-div {
+    text-align: center;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentor-headers {
+    color: #084482;
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 600;
+}
+.mentor-paragraphs {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    width: 50%;
+    text-align: center;
+    color: #474747;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .mentor-div {
+        margin-top: 25%;
+    }
+    .mentor-paragraphs {
+        width: 100%;
+    }
+}
